@@ -1,8 +1,10 @@
-# Interpretación:
-# Este gráfico muestra cómo la regresión logística estima la probabilidad de que un paciente tenga una enfermedad cardíaca
-# en función de su edad. Los puntos morados son los datos reales (0 = no, 1 = sí), mientras que la curva negra representa
-# cómo el modelo "cree" que cambia esa probabilidad con la edad.
-# La forma sigmoide es típica de la regresión logística, ya que su salida está limitada entre 0 y 1.
+''' 
+REGRESIÓN LOGÍSTICA
+
+La regresión logística aplicada mostró cómo varía la probabilidad de tener una enfermedad cardíaca 
+según la edad. La curva sigmoide generada refleja que a mayor edad, la probabilidad estimada de enfermedad 
+tiende a incrementarse. A pesar de usar solo una variable, el modelo ofrece una visión clara del riesgo asociado. 
+Esto demuestra que la regresión logística es útil para estimar probabilidades en problemas médicos binarios.'''
 
 import pandas as pd
 import numpy as np
